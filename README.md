@@ -41,6 +41,6 @@ The environment can be downloaded from one of the links below for all operating 
 
 ### Approach and solution
 
-The notebook `Continuous_Control.ipynb` contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. Our solution uses a Deep Deterministic Policy Gradient approach (only standard feedforward layers) with experience replay.
+The notebook `Continuous_Control.ipynb` contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. Our solution uses a Deep Deterministic Policy Gradient approach (only standard feedforward layers) with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
 
 The agent, the deep Q-Network and memory buffer are implemented in the file `ddpg_agent.py`. The deep learning architectures for both actor and critic are defined in model.py`.
